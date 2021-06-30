@@ -1,0 +1,24 @@
+.discs-container {
+    height: 1000px;
+    width: 80%;
+    margin: auto;
+    background-color: salmon;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.discs-container .disc {
+    width: 20%;
+    height: 400px;
+    background-color: sandybrown;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discs-container .disc img {
+    height: 150px;
+    width: 150px;
+}

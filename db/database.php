@@ -31,7 +31,7 @@ $discs = [
         'author' => 'Steve Gadd Band',
         'year' => '2018',
         'genre' => 'Jazz',
-        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/41JD3CW65HL.jpg',
+        'poster' => 'https://cdn2.jazztimes.com/2018/05/SteveGadd-800x723.jpg',
     ],
     // 5
     [
