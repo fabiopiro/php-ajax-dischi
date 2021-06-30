@@ -29,13 +29,19 @@
                 alt="<?php echo $disc['title'] . ' album cover'; ?>">
 
                 <!-- title -->
-                <p><?php echo $disc['title']; ?></p>
+                <p class="disc-title">
+                    <?php echo $disc['title']; ?>
+                </p>
 
                 <!-- author -->
-                <p><?php echo $disc['author']; ?></p>
+                <p class="disc-author">
+                    <?php echo $disc['author']; ?>
+                </p>
 
                 <!-- year -->
-                <p><?php echo $disc['year']; ?></p>
+                <p class="disc_year">
+                    <?php echo $disc['year']; ?>
+                </p>
 
             </div>
         
@@ -46,7 +52,6 @@
     </main>
     <!-- /MAIN -->
     <!-- FOOTER -->
-    <?php include 'partials/template/footer.php'; ?>
     <!-- /FOOTER -->
 </body>
 </html>
